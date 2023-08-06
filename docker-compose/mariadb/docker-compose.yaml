@@ -3,8 +3,6 @@ services:
   mariadb:
     container_name: mariadb
     image: mariadb:latest
-    stdin_open: true
-    tty: true
     # (Optional) Expose Container outside
     # ports:
     #   - 3306:3306
